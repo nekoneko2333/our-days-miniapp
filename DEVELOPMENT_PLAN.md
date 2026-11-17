@@ -2,8 +2,8 @@
 
 ## 已确认配置
 
-- 微信 AppID：wx4e82fd3fa30c4cc9
-- CloudBase 环境：cloud1-d3grl99hge18bca2a
+- 微信 AppID：YOUR_WECHAT_APPID
+- CloudBase 环境：YOUR_CLOUDBASE_ENV_ID
 - 当前基于微信云开发 quickstart 模板；环境连通性尚未验证。
 - 不在项目或聊天中保存 AppSecret、腾讯云访问密钥或天气私钥。
 

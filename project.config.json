@@ -44,7 +44,7 @@
     "swc": false,
     "disableSWC": true
   },
-  "appid": "wx4e82fd3fa30c4cc9",
+  "appid": "YOUR_WECHAT_APPID",
   "projectname": "our-days",
   "libVersion": "3.17.3",
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",

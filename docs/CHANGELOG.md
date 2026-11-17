@@ -20,8 +20,8 @@
 
 真实使用：在首页或“我的”点击**连接云端**。在“我们”中生成口令，让体验成员在自己的微信里输入完成绑定。
 
-- AppID：`wx4e82fd3fa30c4cc9`
-- 云环境：`cloud1-d3grl99hge18bca2a`
+- AppID：`YOUR_WECHAT_APPID`
+- 云环境：`YOUR_CLOUDBASE_ENV_ID`
 - 云函数：`couple`
 
 完整配置、权限规则、天气接入和双手机验收见 [DEPLOYMENT.md](DEPLOYMENT.md)。开发范围见 [DEVELOPMENT_PLAN.md](DEVELOPMENT_PLAN.md)。

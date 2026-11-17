@@ -4,7 +4,7 @@
 
 ## 1. 数据库（在云开发控制台完成）
 
-选择环境 `cloud1-d3grl99hge18bca2a`，进入文档型数据库，创建以下集合：
+选择环境 `YOUR_CLOUDBASE_ENV_ID`，进入文档型数据库，创建以下集合：
 
 | 集合 | 内容 |
 | --- | --- |
@@ -41,7 +41,7 @@
 
 ```powershell
 node scripts/sync.js
-& 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat' cloud functions deploy --env cloud1-d3grl99hge18bca2a --names couple --remote-npm-install --project 'C:/Desktop/vxxcx' --port 23176
+& 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat' cloud functions deploy --env YOUR_CLOUDBASE_ENV_ID --names couple --remote-npm-install --project 'C:/Desktop/vxxcx' --port 23176
 ```
 
 `database.rules.json` 是供控制台参考的规则文件，**部署函数不会自动应用数据库/存储规则**。

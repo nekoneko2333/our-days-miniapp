@@ -1,7 +1,7 @@
 const automator = require('miniprogram-automator'); const fs = require('fs');
 (async () => { const mini = await automator.connect({ wsEndpoint: 'ws://127.0.0.1:9420' }); try {
   const report = await mini.evaluate(async () => {
-    const env = 'cloud1-d3grl99hge18bca2a', checks = []; let recordId = null, fileID = null;
+    const env = 'YOUR_CLOUDBASE_ENV_ID', checks = []; let recordId = null, fileID = null;
     const call = async (action, args) => { const r = await wx.cloud.callFunction({ name: 'couple', config: { env }, data: Object.assign({ action }, args || {}) }); if (!r.result || !r.result.ok) throw new Error(r.result && r.result.message || 'Unexpected response'); return r.result.data; };
     try {
       const user = await call('bootstrap'); const now = Date.now(), id = 'photo_smoke_' + now;

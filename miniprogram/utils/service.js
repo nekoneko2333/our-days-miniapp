@@ -1,5 +1,5 @@
 const D = require('./domain');
-const ENV = 'cloud1-d3grl99hge18bca2a';
+const ENV = 'YOUR_CLOUDBASE_ENV_ID';
 let session = null;
 const mode = () => {
   const saved=wx.getStorageSync('ourdays-mode'); if(saved) return saved;
