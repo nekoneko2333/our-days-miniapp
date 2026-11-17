@@ -1,0 +1,7 @@
+
+/* Shared palette and controls for pages and isolated editor component. */
+page{background:#fafaf7;color:#343d38;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.primary{background:#51695d;color:#fff;border:0;border-radius:8rpx;box-shadow:none;font-weight:500}
+.secondary{background:transparent;border:1rpx solid #d9ded7;border-radius:8rpx;color:#58675f;box-shadow:none}
+.muted,.text-button{color:#818b83}.section-title{color:#39463e}.page-title{color:#303b34;letter-spacing:1rpx}
+.field{border-color:#e8eae3}.field>text{color:#737d75}.danger{color:#a36e61}.arrow{color:#6f7e73}

@@ -1,0 +1,12 @@
+{
+  "name": "our-days-miniapp",
+  "private": true,
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node scripts/check.js"
+  },
+  "devDependencies": {
+    "miniprogram-automator": "^0.12.1"
+  }
+}

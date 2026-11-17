@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/editor/index"
+  ],
+  "window": {
+    "backgroundColor": "#FAF7EF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EEE9D7",
+    "navigationBarTitleText": "两个人的今天",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}

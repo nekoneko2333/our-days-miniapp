@@ -1,0 +1,3 @@
+
+page{background:#faf7ef;color:#344c43}
+.primary{background:#477b6d;color:#fffaf0;border-radius:14rpx;box-shadow:none}.secondary{background:transparent;border-color:#cdd8c8;border-radius:14rpx;color:#527767}.muted{color:#859181}.field{border-color:#e2e7d9}

@@ -1,0 +1,12 @@
+@import "../../app.wxss";
+@import "../../pages/editor/index.wxss";
+.editor-overlay{position:fixed;inset:0;z-index:30;background:#f7f8f2;display:flex;flex-direction:column;animation:editor-enter 220ms cubic-bezier(.22,1,.36,1)}
+.editor-topbar{display:flex;align-items:center;justify-content:space-between;padding:18rpx 30rpx;border-bottom:1rpx solid #e1e8d9;font-size:32rpx;font-weight:600;flex-shrink:0}
+.editor-scroll{height:0;flex:1;min-height:0}.editor{padding-top:20rpx}
+@keyframes editor-enter{from{opacity:0;transform:translate3d(0,30rpx,0)}to{opacity:1;transform:translate3d(0,0,0)}}
+@media(prefers-reduced-motion:reduce){.editor-overlay{animation:none}}
+.editor-topbar .arrow{margin:0 0 0 auto!important;width:48rpx!important;flex:none}.photos .photo-add{margin:0!important}
+
+.editor-overlay{background:#fafaf7}.editor-topbar{background:#fafaf7;border-color:#e4e9da;font-weight:500}
+
+.editor-overlay{background:#faf7ef}.editor-topbar{position:relative;isolation:isolate;height:170rpx;align-items:flex-start;padding-top:30rpx;border:0;background:#eee9d7;overflow:hidden}.editor-topbar>text,.editor-topbar>button{position:relative;z-index:1}.editor-topbar .editor-scenery{z-index:0}

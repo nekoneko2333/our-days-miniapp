@@ -1,0 +1,28 @@
+
+/* Flat illustration experiment. Previous source is archived under output/before-flat-replies-20260920-182558. */
+page{background:#faf7ef;color:#293c36}
+.today-page{padding:18rpx 24rpx 0}
+.couple-card{position:relative;min-height:154rpx;border-radius:24rpx;background:#d8e5c2}
+.couple-landscape{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.profile-half.self,.profile-half.partner{background:transparent;position:relative;padding:22rpx 18rpx 42rpx;z-index:1}
+.avatar{border:0;padding:0;width:62rpx;height:62rpx;background:#fff8ea}
+.name{font-size:27rpx;color:#293f36}.weather{color:#59725d;font-size:18rpx}
+.date-title{font-size:32rpx;font-weight:600;color:#293c36}
+.quick-row{gap:10rpx;padding:4rpx 0 14rpx}
+.quick{flex:1;display:flex;flex-direction:column;gap:5rpx;background:transparent!important;padding:0!important;border:0;border-radius:0!important;font-size:22rpx!important;color:#34443e}
+.quick-illustration{width:76rpx;height:76rpx;background:#f5e5cd;border-radius:21rpx}
+.quick-activity .quick-illustration{background:#e3ebd5}.quick-study .quick-illustration{background:#e9e6f2}.quick-body .quick-illustration{background:#f4e0e3}.quick-sleep .quick-illustration{background:#eee6cf}
+.home-style-row{padding-bottom:18rpx}.home-style-row .segmented{background:#ece8de;border-radius:12rpx;padding:4rpx;font-size:22rpx}.home-style-row .segmented text{border-radius:9rpx;padding:8rpx 24rpx}.home-style-row .segmented .active{background:#334e40;color:#fffaf0}
+.compact-events{padding:0 0 140rpx}
+.event-card,.partner-card{background:#fffdf8;border:0;border-radius:22rpx;box-shadow:none;padding:22rpx 24rpx 12rpx;margin-bottom:20rpx;overflow:hidden}
+.flat-meal{background:#f8e0ca}.flat-activity{background:#e2ebd3}.flat-study{background:#e6e4f3}.flat-body{background:#f3dfe3}.flat-sleep{background:#f1e6c9}
+.event-member{font-size:22rpx;color:#314e3d;gap:9rpx;background:#ffffff80;padding:5rpx 12rpx 5rpx 5rpx;border-radius:24rpx;max-width:52%}.partner-card .event-member{color:#8a603f;background:#fff7df}
+.event-member-avatar{height:34rpx;width:34rpx;border:0}.event-card-time{color:#6b6e63;font-size:21rpx;max-width:46%;white-space:normal;text-align:right}
+.event-card-title{margin-top:10rpx;gap:14rpx;min-height:92rpx}.event-illustration{width:94rpx;height:94rpx;flex-shrink:0}.event-card-name{font-size:32rpx;color:#283c34;font-weight:600;flex:1}.event-duration,.partner-card .event-duration{color:#455248;background:#ffffff85;border-radius:8rpx;font-size:20rpx;max-width:140rpx;white-space:normal}
+.event-extra{margin-top:4rpx;color:#786b59;font-size:21rpx}.card-note{margin-top:10rpx;color:#495548;line-height:1.7}.card-link,.partner-card .card-link{color:#546553!important;font-size:22rpx!important}.card-actions{border-top:1rpx solid #46533d15;margin-top:14rpx;padding-top:5rpx;gap:28rpx}
+.card-photos{gap:8rpx;margin-top:16rpx}.card-photos>view{border-radius:12rpx}
+.comment-tags{display:block;margin-top:16rpx;background:#ffffff70;border-radius:12rpx;padding:4rpx 16rpx}
+.comment-tag{display:block;background:transparent;border-radius:0;padding:12rpx 0;border-bottom:1rpx solid #46533d12;max-width:100%;font-size:23rpx}.comment-tag:last-child{border-bottom:0}
+.comment-line{display:flex;align-items:center;gap:8rpx;font-size:21rpx}.comment-author,.partner-card .comment-author{color:#344f40;margin:0;font-weight:600}.comment-reply-to{color:#858274;font-size:20rpx}.comment-reply-action{margin-left:auto;color:#768370;font-size:20rpx}.comment-body{display:block;margin-top:5rpx;color:#4e5849;overflow-wrap:anywhere}
+.reply-quote{border-left:5rpx solid #9cac85;background:#edeedd;padding:14rpx 18rpx;margin-bottom:20rpx;font-size:24rpx;line-height:1.6;color:#6d7766;overflow-wrap:anywhere}
+.fab{background:#ed9b64;color:#293e33;box-shadow:none;border-radius:24rpx}.tab-bar{background:#fffcf5;border-top:1rpx solid #eae5d7;box-shadow:none}.panel,.stats-card,.stats-hero{box-shadow:none}.stats-hero{background:#dce7c8}.stats-kinds button.selected{box-shadow:none}.study-sheet,.sheet{background:#fffcf5}.primary{background:#365b47;color:#fffaf0;box-shadow:none}.secondary{background:#e7ebdb;border:0}.focus-page{background:#faf7ef}
